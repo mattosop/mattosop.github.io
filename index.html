@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<header>
-  <img src="ver_4.png" alt="Logo Mattosop" style="width:160px; margin-bottom:20px;">
-  <h1>Mattosop</h1>
-  <p>Inovação em Inteligência Artificial aplicada à Engenharia Clínica</p>
-  <a href="#contato">Fale Conosco</a>
-</header>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mattosop • IA para Engenharia Clínica</title>
     <style>
         body {
@@ -16,22 +12,34 @@
             color: #222;
         }
 
+        /* HEADER */
         header {
             background: linear-gradient(135deg, #0a84ff, #00c896);
-            padding: 80px 20px;
-            text-align: center;
+            padding: 40px 20px 80px 20px;
             color: white;
+            position: relative;
+        }
+
+        /* LOGO NO CANTO ESQUERDO */
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 140px;
         }
 
         header h1 {
             font-size: 48px;
+            margin-top: 60px;
             margin-bottom: 10px;
             font-weight: 700;
+            text-align: center;
         }
 
         header p {
             font-size: 20px;
             opacity: 0.9;
+            text-align: center;
         }
 
         header a {
@@ -50,6 +58,7 @@
             background: #e6e6e6;
         }
 
+        /* SEÇÕES */
         section {
             max-width: 1000px;
             margin: 60px auto;
@@ -70,6 +79,7 @@
             margin-bottom: 25px;
         }
 
+        /* FOOTER */
         footer {
             background: #0a0a0a;
             color: #ccc;
@@ -87,9 +97,14 @@
 <body>
 
 <header>
+    <!-- LOGO NO CANTO ESQUERDO -->
+    <img src="ver_4.png" alt="Logo Mattosop" class="logo">
+
     <h1>Mattosop</h1>
     <p>Inovação em Inteligência Artificial aplicada à Engenharia Clínica</p>
-    <a href="#contato">Fale Conosco</a>
+    <div style="text-align:center;">
+        <a href="#contato">Fale Conosco</a>
+    </div>
 </header>
 
 <section>
